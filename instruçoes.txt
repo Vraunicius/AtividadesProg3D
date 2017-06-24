@@ -1,0 +1,35 @@
+Desenvolvido por: Vinicius Vieira
+
+Inputs: 
+
+ESC -> Fecha
+
+A -> rotaciona o objeto para a esquerda
+S -> rotaciona o objeto para baixo
+D -> rotaciona o objeto para a direita
+W -> rotaciona o objeto para a cima
+
+SPACE -> reseta as posições
+
+ARROW_UP -> move camera para frente
+ARROW_DOWN -> move camera para tras
+ARROW_LEFT -> move camera para a esquerda
+ARROW_RIGHT -> move camera para a direita
+
+N -> normals = !normals
+
+G -> mostra grids
+F -> mostra faces
+
+--------------------------------------------------------------------------------------------------------------
+Como usar:
+
+-Pentagono:
+o programa vai abrir no pentagono, então é so executar e se deus quiser ele vai funcionar
+
+-Cubo:
+mesh = MeshFactory.createPentagonTOP(); trocar por mesh = MeshFactory.createCubeTOP();
+obs: Usar grids aqui da um efeito legal :)
+
+-Terreno:
+Comente a linha onde estava sendo desenhado o cubo e descomente as que estavam comentadas
